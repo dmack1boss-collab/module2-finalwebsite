@@ -18,7 +18,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+    }
+    
+    
+
 
 img {
     
@@ -110,9 +113,13 @@ padding: 24px;
 
 .header__email {
     width: 100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     
-    
-
 }
 
 .header__email--input {
@@ -122,8 +129,8 @@ padding: 24px;
     padding: 20px 192px 20px 32px;
     color: rgb(36, 62, 99);
     font-size: 16px;
-    
     font-weight: 500;
+    position: absolute;
     top: 0;
     bottom: 0;
     z-index: 1;
@@ -131,15 +138,17 @@ padding: 24px;
 
 }
 
-.header__img--wrapper {
-    width: 60%;
-}
+
+
 
 .header__customers {
     margin-top: 16px;
     opacity: 0.5;
     padding-right: 128px;
     
+}
+.header__img--wrapper {
+    width: calc(100% - 40%);
 }
 
 .header__customers--title {
@@ -149,6 +158,11 @@ padding: 24px;
     color: #a0aec0;
     
     
+}
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__email--btn {
