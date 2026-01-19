@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/e92efa1168.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <title>Templates</title>
 </head>
  <body>
@@ -28,11 +28,20 @@
             <div class="nav__asset"><a href="#">Pricing</a></div>
             <div class="nav__asset"><a href="#">Contact Us</a></div>
             <div class="nav__asset"><a href="#">Login</a></div>
-            <button class="btn">Sign Up</button>
-          </div>
+            <button class="btn">Sign Up
+             <button class="btn_menu" onclick="openMenu()">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg" > <line x1="3" y1="12" x2="21" y2="12"></line> <line x1="3" y1="6" x2="21" y2="6"></line> <line x1="3" y1="18" x2="21" y2="18"></line> </svg>
+            </button>
+            <button class="btn__menu--close" onclick="closeMenu()"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-lj69nl-14 fASujC" > <line x1="18" y1="6" x2="6" y2="18"></line> <line x1="6" y1="6" x2="18" y2="18"></line> </svg>   
+             </div>
+             </div>
+        </div>
+            </button>
+ 
+         </div>
         </div>
     </nav>
-
 <header>
     <div class="container">
         <div class="row">
@@ -347,7 +356,7 @@
             <div class="container">
                 <div class="row">
                     <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
-                     alt class="testimonialS__img">
+                     alt class="testimonials__img">
                      <div class="testimonials__description">
                     <div class="section__tag">testimonials</div>
                     <h2 class="section__title">
