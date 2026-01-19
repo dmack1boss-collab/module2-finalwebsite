@@ -159,14 +159,26 @@ section {
   padding: 24px;
 }
 
-/* @media (max-width:768px) {
-.nav__assets { width: 50%;
+/* Laptop */
+@media (max-width:1200px) {
+.nav__assets { width: 100%;
 }
 .nav__assets {
 flex-direction: column;
 }
-.nav__assets {
-display: none;
+
+}
+
+/*Tablets and up*/
+@media (min-width: 768px) {
+.nav__assets:{width: 50%;}
+}
+
+
+
+/* Mobile Phones*/
+@media (min-width:480px) {
+
 }
 
 
