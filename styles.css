@@ -92,6 +92,11 @@ text-decoration: underline;
   cursor: pointer;
 }
 
+.btn_menu {
+display: none;
+
+
+}
 section {
   padding: 0 32px;
 }
@@ -1096,7 +1101,7 @@ flex-direction:column}
 
 /* Tablets*/
 
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
   nav .row {
     padding-top: 24px;
   }
@@ -1105,9 +1110,11 @@ flex-direction:column}
   }
 
   .nav__assets {
-    display
+    display: none;
   }
-
+.btn_menu {
+    display: block;
+}
   .quality__description,
   .quality__img--wrapper {
     width: 100%;
@@ -1127,9 +1134,11 @@ flex-direction:column}
     flex-direction: column;
     align-items: center;
   }
-} */
+} 
 
 /*Mobile Phones*/
+
+
 
 
 
