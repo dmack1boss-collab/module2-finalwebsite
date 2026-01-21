@@ -164,26 +164,6 @@ section {
   padding: 24px;
 }
 
-/* Laptop */
-@media (max-width:1200px) {
-
-
-
-}
-
-
-
-/*Tablets and up*/
-@media (min-width: 768px) {
-}
-
-
-
-/* Mobile Phones*/
-
-
-
-
 /* Header
 */
 
@@ -926,14 +906,10 @@ button {
    
    }
 
-   .start__title, .start__buttons {
-    width: 50%;
-    
-   }
-
    .start__buttons {
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .start__title, .start__buttons {
@@ -1094,9 +1070,10 @@ button {
 
 /*Laptops. desktops*/
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
 .plans {
 flex-direction:column}
+}
 
 
 /* Tablets*/
@@ -1123,6 +1100,18 @@ flex-direction:column}
   .feature {
     width: 50%;
   }
+
+  .plans {
+    width: 100;
+    flex-direction: column;
+  }
+  .start__container {
+    width: 100%;
+  }
+  .start__buttons {
+    
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 550px) {
@@ -1134,11 +1123,26 @@ flex-direction:column}
     flex-direction: column;
     align-items: center;
   }
+  .steps__img {
+    width: 100%;
+  }
 } 
 
 /*Mobile Phones*/
+@media (max-width: 480px) {
+    .plans {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+ .start__container {
+    width: 100%;
 
-
+.start__buttons {
+    width: 100%;
+    flex-direction: column;
+}
+ }
 
 
 
