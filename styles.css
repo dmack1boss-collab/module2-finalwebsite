@@ -1138,10 +1138,10 @@ flex-direction:column}
   .start__buttons {
      flex-direction: column;
   }
-
-
 }
- 
+
+
+
 
 @media (max-width: 550px) {
   .feature {
