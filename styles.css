@@ -1027,6 +1027,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
    
 }
 
@@ -1037,6 +1038,7 @@ button {
 .footer__logo--img {
     height: 32px;
     width: 32px;
+
     
     }
 
@@ -1108,7 +1110,8 @@ flex-direction:column}
   #quality .row {
     flex-direction: column;
   }
-
+#steps .row {
+  flex-direction: column;
   .nav__assets {
     display: none;
   }
@@ -1149,7 +1152,9 @@ flex-direction:column}
     flex-direction: column;
     align-items: center;
   }
-  
+  .steps__img--wrapper {
+    width: 50%;
+  }
   
 } 
 
@@ -1163,12 +1168,13 @@ flex-direction:column}
 }
  .start__container {
     width: 100%;
+ }
 
 .start__buttons {
-    width: 50%;
     flex-direction: column;
     display: flex-end;
 }
+
  }
 
 
